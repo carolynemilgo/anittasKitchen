@@ -1,0 +1,88 @@
+#topheader {
+
+  background-image: url("../img/backgrounds/landing.jpg");
+
+  }
+#menuIcon{
+  display: block;
+  margin: 0 auto;
+}
+#tagLine{
+
+  color: white;
+}
+.happyHour{
+  background-color: white;
+  height: 75px;
+}
+.happyTime{
+  background-color: pink;
+  height: 75px;
+}
+#breakfast{
+    background-image: url("../img/foodtop/breakfast.jpg");
+    color: white;
+    height: 150px;
+    text-align: center;
+}
+#lunch{
+    background-image: url("../img/foodtop/lunch.jpg");
+    color: white; height: 150px;
+    background-color: white;
+    text-align: center;
+}
+#dinner{
+    background-image: url("../img/foodtop/dinner.jpg");
+    color: white;
+    height: 150px;
+    text-align: center;
+}
+#menuOptions{
+  text-align: center;
+  margin-top: 1%;
+}
+#gallery{
+    border: 1px solid orange;
+    width: 90px;
+
+}
+.tb{
+    margin-left:200px;
+    width: 350px;
+    /*padding: 7px;
+    border: 2px;
+    width: 150px;
+     max-height: 150px;
+    box-shadow: 3px 3px 3px #f1f1f1;
+    float: right;*/
+}
+#boxTwo{
+  text-align: left;
+}
+.boxThree{
+  text-align: left;
+}
+#boxFour{
+  text-align: left;
+}
+#section-things{
+  width:100%;
+}
+.slideshowOptions{
+  background-image:url("../img/backgrounds/foodsBg.jpg");
+  height: 150px;
+}
+.hoverEffect :hover{
+  opacity: 0.5;
+}
+#colorGrey{
+  background-color: lightgrey;
+  height:75px;
+}
+#colorOrange{
+  background-color: orangered;
+  height:75px;
+}
+.backgroundNav{
+  background-color: white;
+}
