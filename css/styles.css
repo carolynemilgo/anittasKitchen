@@ -6,7 +6,7 @@
 #menuIcon{
   display: block;
   margin: 0 auto;
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather';
 }
 #tagLine{
 
@@ -25,22 +25,26 @@
     color: white;
     height: 150px;
     text-align: center;
+    font-style: italic;
 }
 #lunch{
     background-image: url("../img/foodtop/lunch.jpg");
     color: white; height: 150px;
     background-color: white;
     text-align: center;
+    font-style: italic;
 }
 #dinner{
     background-image: url("../img/foodtop/dinner.jpg");
     color: white;
     height: 150px;
     text-align: center;
+    font-style: italic;
 }
 #menuOptions{
   text-align: center;
   margin-top: 1%;
+  padding top: 5px;
 }
 #gallery{
     border: 1px solid orange;
@@ -67,7 +71,7 @@
   text-align: left;
 }
 #section-things{
-  width:100%;
+  width:auto;
 }
 /*.slideshowOptions{
   background-image:url("../img/backgrounds/foodsBg.jpg");
@@ -75,13 +79,15 @@
 }*/
 .hoverEffect :hover{
   opacity: 0.5;
+  color: black;
 }
+
 #colorGrey{
   background-color: lightgrey;
   height:75px;
 }
 #colorOrange{
-  background-color: orangered;
+  background-color: #F15A29;
   height:75px;
 }
 .backgroundNav{
