@@ -67,14 +67,35 @@ function closeNav() {
       </div>
     </div>
     <!-- End of top most header -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog"  style="width:1200px">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Dialog</h4>
+          </div>
+          <div class="modal-body" id="modal">
+            <p>Some text in the modal.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
     <!-- Begining of menu section with navigation -->
     <div class="row container" id="section-things">
       <div class="col-md-3">
         <div class="row" id="colorGrey">
-          <h3 align="center">Happy Hour</h3>
+          <h3 align="center" onclick="javascript: showMyModal()">Happy Hour</h3>
         </div>
         <div class="row" id="colorOrange">
-          <h3 align="center">Happy Time<br></h3>
+          <h3 align="center" onclick="showMyModal('happyhour')">Happy Time<br></h3>
         </div>
       </div>
       <div class="hoverEffect" onmouseover="toggle_text_color_mouse_over()" onmouseout="toggle_text_color_mouse_out()">
