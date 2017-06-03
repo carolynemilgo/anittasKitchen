@@ -18,11 +18,15 @@
 
   <!-- Google analytics for tracking site visits -->
   <script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-86481480-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-100377774-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
 <!-- End of Google Analytics -->
   <title>Anitas Kitchen</title>
 </head>
@@ -32,7 +36,29 @@ ga('send', 'pageview');
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12" id="topheader">
-        <span class="glyphicon glyphicon-menu-hamburger"></span>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">Contacts</a>
+    <a href="#">Events</a>
+    <a href="#">Menu</a>
+
+  </div>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+</script>
         <div>
 
           <img src="img/logoBig.png" id="menuIcon">
@@ -51,7 +77,7 @@ ga('send', 'pageview');
           <h3 align="center">Happy Time<br></h3>
         </div>
       </div>
-      <div class="hoverEffect">
+      <div class="hoverEffect" onmouseover="toggle_text_color_mouse_over()" onmouseout="toggle_text_color_mouse_out()">
         <div class="col-md-3" id="breakfast">
           <h3 class="menuOptions"><br><br>Breakfast</h3>
         </div>
