@@ -9,16 +9,16 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/scripts.js"></script>
   <script type="text/javascript">
-  function subscribe()
-  {
-    alert(document.getElementById('emailAddress').value+' has been succesfully added to our email list');
+    function subscribe() {
+      alert(document.getElementById('emailAddress').value + ' has been succesfully added to our email list');
 
-  }
+    }
   </script>
   <title>Anitas Kitchen</title>
 </head>
 
 <body>
+  <!-- Beginning of top most header -->
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12" id="topheader">
@@ -30,6 +30,8 @@
         </div>
       </div>
     </div>
+    <!-- End of top most header -->
+    <!-- Begining of menu section with navigation -->
     <div class="row container" id="section-things">
       <div class="col-md-3">
         <div class="row" id="colorGrey">
@@ -67,6 +69,8 @@
           </tr>
         </table>
       </div>
+      <!-- End of menu options -->
+      <!-- beginning of fast food -->
       <div class="col-md-6" id="boxTwo">
         <h2>Fast Food</h2>
         <h5><strong>lorem You'll love our delicious fast food</strong></h5>
@@ -76,8 +80,9 @@
         <div id='gallery'><a href="#"><h6>VIEW GALLERY</h6></a></div>
       </div>
     </div>
-    <!-- <div> -->
-      <div class="col-md-6">
+    <!-- End of fast food -->
+    <!-- Beginning of drinks -->
+    <div class="col-md-6">
       <h2 align="right"> Drinks</h2>
       <h5 align="right"><strong>We also produce delicious drinks</strong></h5>
       <p align="right">Wine, energy drinks, fruit pulp and fresh juices. Name it..Anita's kitchen caters for all that and it is readily available. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -92,8 +97,91 @@
       </div>
     </div>
   </div>
+  <!-- End of drinks    -->
+  <!-- Beginning of navigation slideshow-->
+  <div class="navigationBackground">
+    <div class="container" style="padding-left: 100px; padding-right:100px;background-color:white;">
+      <div class="row" style="">
+        <!-- /.col-md-4 -->
+        <!-- /.col-md-4 -->
+        <div class="col-md-12">
+          <div>
+            <ul class="nav nav-tabs">
+              <li class="active"><a data-toggle="tab" href="#home">Fast Food </a></li>
+              <li><a data-toggle="tab" href="#menu1">Drinks</a></li>
+              <li><a data-toggle="tab" href="#menu2">Chicken</a></li>
+              <li><a data-toggle="tab" href="#menu2">Rice</a></li>
+            </ul>
 
-    <div id="subscription">
+            <div class="tab-content">
+              <div id="home" class="tab-pane fade in active">
+
+                <div class="row">
+                  <!-- /.col-md-4 -->
+                  <!-- /.col-md-4 -->
+                  <div class="col-md-12">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td><span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color: #F15A29"></span> <img src="img/fastfood/chickenBurger.jpg" width="280" height="220"></td>
+                        <td><img src="img/fastfood/beefBurger.jpg" width="280" height="220"></td>
+                        <td><img src="img/fastfood/chickenPizza.jpg" width="280" height="220"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color: #F15A29"></span></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div align="center"><strong>Chicken Burger </strong></div>
+                        </td>
+                        <td>
+                          <div align="center"><strong>Beef Burger</strong> </div>
+                        </td>
+                        <td>
+                          <div align="center"><strong>Chicken Pizza</strong> </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of navigation slideshow -->
+  <!-- Beginning of happy customers and about menu -->
+  <div class="row" style="">
+    <!-- /.col-md-4 -->
+    <div class="container">
+      <div>
+
+
+        <!-- /.col-md-4 -->
+        <!-- /.col-md-4 -->
+        <div style="padding:30px">
+          <div class="row">
+            <div style="padding:20px;border:1px solid #CCCCCC; height:150px">
+              <div class="col-md-7">
+                <div align="center"><strong>
+        Our happy customers
+        </strong>
+                </div>
+                <div style="padding:5px; text-align:center"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color: #F15A29"></span><img src="img/customers/p1.png" width="47" height="47"><img src="img/customers/p2.png" width="58" height="58"> <img src="img/customers/p3.png"
+                    width="47" height="47"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color: #F15A29"></span></div>
+              </div>
+              <div class="col-md-4" style="border-left: 1px solid #CCCCCC;text-align:center">
+                <p align="center"><strong>About Menu</strong></p>
+                <h6>We are a team of 7 members working tirelessly to ensure you get the best food served to keep you coming for more. Feel free to pass by our shop and grab yourself a delicious meal. Our staff will be delihted to attend to your needs </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- End of happy customers section -->
+  <!-- Beginning of subscription section    -->
+  <div id="subscription">
     <form>
       <h4>Get our daily food items delivered to your email</h4>
       <form>
@@ -102,6 +190,8 @@
       </form>
       <br>
   </div>
+  <!-- end of subscription section -->
+  <!-- Beginning of bottom footer -->
   <div id="footerMenu">
     <div class="container-fluid">
       <h2 align="center"><img src="img/footerlogos/logo_white.png"> MENU</h2>
@@ -114,7 +204,8 @@
       <br>
       <h6>2016 Menu Restaurant</h6>
     </div>
-  </div></div>===
+  </div>
+  <!-- End of bottom footer -->
 </body>
 
 </html>
