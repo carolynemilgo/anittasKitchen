@@ -5,6 +5,16 @@
   <meta charset="utf-8">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300" rel="stylesheet">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script type="text/javascript">
+  function subscribe()
+  {
+    alert(document.getElementById('emailAddress').value+' has been succesfully added to our email list');
+
+  }
+  </script>
   <title>Anitas Kitchen</title>
 </head>
 
@@ -12,7 +22,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12" id="topheader">
-        <span class="glyphicon glyphicon-menu-hamburger">AAAA</span>
+        <span class="glyphicon glyphicon-menu-hamburger"></span>
         <div>
 
           <img src="img/logoBig.png" id="menuIcon">
@@ -29,86 +39,82 @@
           <h3 align="center">Happy Time<br></h3>
         </div>
       </div>
-  <div class="hoverEffect">
-      <div class="col-md-3" id="breakfast">
-        <h3 class="menuOptions">Breakfast</h3>
-      </div>
-    </div>
-    <div class="hoverEffect">
-      <div class="col-md-3" id="lunch">
-        <h3 class="menuOptions">Lunch</h3>
-      </div>
-    </div>
-    <div class="hoverEffect">
-      <div class="col-md-3" id="dinner">
-        <h3 class="menuOptions">Dinner</h3>
-      </div>
-    </div>
-  </div>
-<br>
-<div class="row" style="height: 300px">
-    <div class="col-md-6"class="boxOne">
-      <table class="table-responsive tb img-thumbnail">
-        <tr>
-          <td><img src="img/fastFood1.jpg" style="height: 120px" alt="img" width="340px"></td>
-        </tr>
-        <tr>
-          <td><img src="img/fastFood2.jpg" style="height: 120px" alt="img" width="340px"></td>
-        </tr>
-      </table>
-    </div>
-      <div class="col-md-6"id="boxTwo">
-            <h2>Fast Food</h2>
-            <h5><strong>lorem You'll love our delicious fast food</strong></h5>
-            <p>Anita's kitchen is your one stop shop where you will treat
-              your taste buds to inforgettable flavors that will keep you
-                coming for more. Drop by today and sample our meals where
-                  you will enjoy great ambience and excellent customer service Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <div id='gallery'><a href="#"><h6>VIEW GALLERY</h6></a></div>
+      <div class="hoverEffect">
+        <div class="col-md-3" id="breakfast">
+          <h3 class="menuOptions">Breakfast</h3>
         </div>
-</div>
-<div>
-<br>
-<br>
-<br>
-  <div class="col-md-6">
-        <h2 align="right"> Drinks</h2>
-        <h5 align="right"><strong>We also produce delicious drinks</strong></h5>
-        <p align="right">Wine, energy drinks, fruit pulp and fresh juices. Name it..Anita's
-          kitchen caters for all that and it is readily available. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <div id='gallery'><a href="#"><h6>VIEW GALLERY</h6></a></div>
+      </div>
+      <div class="hoverEffect">
+        <div class="col-md-3" id="lunch">
+          <h3 class="menuOptions">Lunch</h3>
+        </div>
+      </div>
+      <div class="hoverEffect">
+        <div class="col-md-3" id="dinner">
+          <h3 class="menuOptions">Dinner</h3>
+        </div>
+      </div>
     </div>
-</div>
-<div class="col-md-6"class="boxFour">
-  <div>
-    <img src="img/drink1.jpg" alt="img" height="240px">
-    <img src="img/drink2.jpg" alt="img" height="240px">
+    <br>
+    <div class="row" style="height: 300px">
+      <div class="col-md-6" class="boxOne">
+        <table class="table-responsive tb img-thumbnail">
+          <tr>
+            <td><img src="img/fastFood1.jpg" style="height: 120px" alt="img" width="340px"></td>
+          </tr>
+          <tr>
+            <td><img src="img/fastFood2.jpg" style="height: 120px" alt="img" width="340px"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-6" id="boxTwo">
+        <h2>Fast Food</h2>
+        <h5><strong>lorem You'll love our delicious fast food</strong></h5>
+        <p>Anita's kitchen is your one stop shop where you will treat your taste buds to inforgettable flavors that will keep you coming for more. Drop by today and sample our meals where you will enjoy great ambience and excellent customer service Lorem
+          ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div id='gallery'><a href="#"><h6>VIEW GALLERY</h6></a></div>
+      </div>
+    </div>
+    <!-- <div> -->
+      <div class="col-md-6">
+      <h2 align="right"> Drinks</h2>
+      <h5 align="right"><strong>We also produce delicious drinks</strong></h5>
+      <p align="right">Wine, energy drinks, fruit pulp and fresh juices. Name it..Anita's kitchen caters for all that and it is readily available. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div id='gallery'><a href="#"><h6>VIEW GALLERY</h6></a></div>
+    </div>
+    <div class="col-md-6" class="boxFour">
+      <div>
+        <img src="img/drink1.jpg" alt="img" height="240px">
+        <img src="img/drink2.jpg" alt="img" height="240px">
+      </div>
+    </div>
   </div>
-  <!-- <table class="table-responsive tb img-thumbnail">
-    <tr>
-      <td><img src="img/drink1.jpg" style="30px" alt="img"></td>
-      <td><img src="img/drink2.jpg" alt="img" style="30px"></td>
-    </tr>
-      </table> -->
-</div>
-</div>
-<br>
-<br>
-<div class="slideshowOptions">
-  <table>
-    <tr>
-  <ul class="nav nav-tabs" class="backgroundNav">
-  <li role="presentation" class="active"><a href="#">Fast Food</a></li>
-  <li role="presentation" class="active"><a href="#">Drinks</a></li>
-  <li role="presentation" class="active"><a href="#">Chicken</a></li>
-  <li role="presentation" class="active"><a href="#">Rice</a></li>
-  </ul>
-</tr>
-</table>
-</div>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <div id="subscription">
+    <form>
+      <h4>Get our daily food items delivered to your email</h4>
+      <form>
+        <input type="email" id="emailAddress" placeholder="Your email" required="required"> &nbsp&nbsp&nbsp
+        <button id="myButton" onclick="javascript: subscribe()">Subscribe</button>
+      </form>
+      <br>
+  </div>
+  <div id="footerMenu">
+    <div class="container-fluid">
+      <h2 align="center"><img src="img/footerlogos/logo_white.png"> MENU</h2>
+      <h5>Thats what we are</h5>
+      <br>
+      <img src="img/footerlogos/facebook.png">&nbsp&nbsp
+      <img src="img/footerlogos/twitter.png">&nbsp&nbsp
+      <img src="img/footerlogos/pinterest.png">
+      <br>
+      <br>
+      <h6>2016 Menu Restaurant</h6>
+    </div>
+  </div></div>===
 </body>
 
 </html>
