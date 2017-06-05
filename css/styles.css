@@ -95,6 +95,7 @@
 #menuOptions{
   text-align: center;
   margin-top: 1%;
+  color: white;
 
 }
 #gallery{
@@ -123,6 +124,10 @@
 }
 #section-things{
   width:auto;
+
+}
+.drinksSection{
+  margin-left: 5px;
 }
 /*.slideshowOptions{
   background-image:url("../img/backgrounds/foodsBg.jpg");
