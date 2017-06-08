@@ -13,7 +13,13 @@
     overflow-y: hidden;
     transition: 0.5s;
 }
-
+.border{
+  border:solid rgba(255,255,255, 0.3);
+  border-width: 20px;
+  -moz-box-shadow:0 0 5px #888;
+  -webkit-box-shadow:0 0 5px #888;
+  box-shadow: 0 0 5px #888;
+}
 .overlay-content {
     position: relative;
     top: 25%;
@@ -115,6 +121,7 @@
 
 #boxTwo{
   text-align: left;
+  width: 500px;
 }
 
 .boxOne{
