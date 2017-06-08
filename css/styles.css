@@ -90,8 +90,6 @@
     text-align: center;
     font-style: italic;
     font-family: 'Slabo 27px', serif;
-
-
 }
 #dinner{
     background-image: url("../img/foodtop/dinner.jpg");
@@ -109,18 +107,10 @@
     border: 1px solid #F15A29;
     width: 90px;
     color:red;
-
 }
 
 .tb{
     margin-left:0;
-
-    /*padding: 7px;
-    border: 2px;
-    width: 150px;
-     max-height: 150px;
-    box-shadow: 3px 3px 3px #f1f1f1;
-    float: right;*/
 }
 
 #boxTwo{
@@ -139,13 +129,9 @@
   text-align: left;
   /*margin-left: 0;*/
 }
-#section-things{
-  width:auto;
 
-}
 .drinksSection{
   margin-left: 5px;
-
   padding-top:50px;
 }
 
