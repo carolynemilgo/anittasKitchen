@@ -1,9 +1,7 @@
-#topheader {
-
-  background-image: url("../img/backgrounds/landing.jpg");
-
+  body{
+    font-family: 'Slabo 27px', serif;
   }
-/*Hamburger menu*/
+  /*Hamburger menu from bootstrap*/
 .overlay {
     height: 0%;
     width: 100%;
@@ -53,11 +51,17 @@
     right: 35px;
   }
 }
-/*end of hamburger menu*/
+/*end of hamburger menu from bootstrap*/
+
+#topheader {
+
+  background-image: url("../img/backgrounds/landing.jpg");
+
+  }
 #menuIcon{
   display: block;
   margin: 0 auto;
-  font-family: 'Merriweather';
+  font-family: 'Slabo 27px', serif;
 }
 #tagLine{
 
@@ -77,6 +81,7 @@
     height: 150px;
     text-align: center;
     font-style: italic;
+    font-family: 'Slabo 27px', serif;
 }
 #lunch{
     background-image: url("../img/foodtop/lunch.jpg");
@@ -84,6 +89,9 @@
     background-color: white;
     text-align: center;
     font-style: italic;
+    font-family: 'Slabo 27px', serif;
+
+
 }
 #dinner{
     background-image: url("../img/foodtop/dinner.jpg");
@@ -91,19 +99,22 @@
     height: 150px;
     text-align: center;
     font-style: italic;
+    font-family: 'Slabo 27px', serif;
 }
 #menuOptions{
   text-align: center;
   margin-top: 1%;
 }
 #gallery{
-    border: 1px solid orange;
+    border: 1px solid #F15A29;
     width: 90px;
+    color:red;
 
 }
+
 .tb{
-    margin-left:200px;
-    width: 350px;
+    margin-left:0;
+
     /*padding: 7px;
     border: 2px;
     width: 150px;
@@ -111,14 +122,22 @@
     box-shadow: 3px 3px 3px #f1f1f1;
     float: right;*/
 }
+
 #boxTwo{
   text-align: left;
+}
+
+.boxOne{
+  text-align: right;
+}
+
 }
 .boxThree{
   text-align: left;
 }
 #boxFour{
   text-align: left;
+  /*margin-left: 0;*/
 }
 #section-things{
   width:auto;
@@ -126,20 +145,20 @@
 }
 .drinksSection{
   margin-left: 5px;
+
+  padding-top:50px;
 }
-/*.slideshowOptions{
-  background-image:url("../img/backgrounds/foodsBg.jpg");
-  height: 150px;
-}*/
-.hoverEffect :hover{
+
+.effect:hover{
   opacity: 0.5;
 
 }
-.hoverEffect h3:hover
-{
+.effect:hover h3{
+  color: black;
 
-color:black;
-
+}
+.whitish{
+  color: white;
 }
 #colorGrey{
   background-color: lightgrey;
@@ -178,7 +197,7 @@ color:black;
   background-color: #F15A29;
   border: none;
   color: white;
-  font-style: serif;
+  font-family: 'Slabo 27px', serif;
   text-align: center;
   width: 140px;
   height: 30px;
@@ -194,6 +213,6 @@ color:black;
   height: 30px;
   opacity: 0.5;
   font-size: 11px;
-  font-style: serif;
+  font-family: 'Slabo 27px', serif;
   color: black;
 }

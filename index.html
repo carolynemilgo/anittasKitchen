@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
   <link href="css/styles.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300" rel="stylesheet">
+  <link <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
   <script src="js/jquery.min.js"></script>
 
   <script type="text/javascript">
@@ -48,7 +48,7 @@
 </div>
 
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()" class="whitish">&#9776; </span>
 
 <script>
 function openNav() {
@@ -89,41 +89,36 @@ function closeNav() {
 
 
     <!-- Begining of menu section with navigation -->
-    <div class="row container" id="section-things">
+    <div class="row container-fluid" id="section-things">
       <div class="col-md-3">
-        <div class="row" id="colorGrey">
+        <div class="row" id="colorGrey" >
           <h3 align="center" onclick="javascript: showMyModal()">Happy Hour</h3>
         </div>
         <div class="row" id="colorOrange">
           <h3 align="center" onclick="showMyModal('happyhour')">Happy Time<br></h3>
         </div>
       </div>
-      <div class="hoverEffect" onmouseover="toggle_text_color_mouse_over()" onmouseout="toggle_text_color_mouse_out()">
-        <div class="col-md-3" id="breakfast">
-          <h3 class="menuOptions"><br><br>Breakfast</h3>
-        </div>
+        <div class="col-md-3 effect" id="breakfast">
+          <h3><br><br>Breakfast</h3>
       </div>
-      <div class="hoverEffect">
-        <div class="col-md-3" id="lunch">
+        <div class="col-md-3 effect" id="lunch">
           <h3 class="menuOptions"><br><br>Lunch</h3>
-        </div>
       </div>
-      <div class="hoverEffect">
-        <div class="col-md-3" id="dinner">
+        <div class="col-md-3 effect" id="dinner">
           <h3 class="menuOptions"><br><br>Dinner</h3>
-        </div>
       </div>
     </div>
     <br>
     <div class="container-fluid">
         <div class="row">
-         <div class="col-md-6" class="boxOne">
-           <table class="table-responsive tb img-thumbnail">
+         <div class="col-md-6 boxOne">
+           <table class="table-responsive img-thumbnail">
              <tr>
-               <td><img src="img/fastFood1.jpg" style="height: 120px" alt="img" width="340px"></td>
+               <td><img src="img/fastFood1.jpg">
+               </td>
              </tr>
              <tr>
-               <td><img src="img/fastFood2.jpg" style="height: 120px" alt="img" width="340px"></td>
+               <td><img src="img/fastFood2.jpg"> </td>
              </tr>
            </table>
          </div>
@@ -135,14 +130,14 @@ function closeNav() {
            <p>Anita's kitchen is your one stop shop where you will treat your taste buds to inforgettable flavors that will keep you coming for more. Drop by today and sample our meals where you will enjoy great ambience and excellent customer service Lorem
              ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-           <div id='gallery'><a href="#"><h6>VIEW GALLERY</h6></a></div>
+           <div id='gallery'><a href="#"><button>VIEW GALLERY</button></a></div>
          </div>
        </div>
      </div>
 
        <!-- End of fast food -->
        <!-- Beginning of drinks -->
-        <div class="container-fluid" class="drinksSection">
+        <div class="container-fluid drinksSection">
    <div class="row">
        <div class="col-md-6">
          <h2 align="right"> Drinks</h2>
@@ -150,12 +145,16 @@ function closeNav() {
          <p align="right">Wine, energy drinks, fruit pulp and fresh juices. Name it..Anita's kitchen caters for all that and it is readily available. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-         <div id='gallery'><a href="#"><h6>VIEW GALLERY</h6></a></div>
+         <div id='gallery'><a href="#"><button>VIEW GALLERY</button></a></div>
        </div>
-       <div class="col-md-6" class="boxFour">
+       <div class="col-md-6" class="boxFour" align="left">
          <div>
-           <img src="img/drink1.jpg" alt="img" height="240px">
-           <img src="img/drink2.jpg" alt="img" height="240px">
+           <table class= "table-responsive tb img-thumbnail">
+             <tr>
+          <td> <img src="img/drink1.jpg"></td>
+          <td> <img src="img/drink2.jpg"></td>
+         </tr>
+         </table>
          </div>
        </div>
      </div>
@@ -224,13 +223,15 @@ function closeNav() {
         <!-- /.col-md-4 -->
         <div style="padding:30px">
           <div class="row">
-            <div style="padding:20px;border:1px solid #CCCCCC; height:150px">
+            <div style="padding:20px;border:1px solid #CCCCCC; height:200px">
               <div class="col-md-7">
                 <div align="center"><strong>
         Our happy customers
+        <h5>George Richard</h5>
+        <h6> Great food, menu is awesome. Their foods are not only great <br>but also at a good price. I'll highly recommend them</h6>
         </strong>
                 </div>
-                <div style="padding:5px; text-align:center"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color: #F15A29"></span><img src="img/customers/p1.png" width="47" height="47"><img src="img/customers/p2.png" width="58" height="58"> <img src="img/customers/p3.png"
+                <div style="padding:0; text-align:center"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color: #F15A29"></span><img src="img/customers/p1.png" width="47" height="47"><img src="img/customers/p2.png" width="58" height="58"> <img src="img/customers/p3.png"
                     width="47" height="47"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color: #F15A29"></span></div>
               </div>
               <div class="col-md-4" style="border-left: 1px solid #CCCCCC;text-align:center">
